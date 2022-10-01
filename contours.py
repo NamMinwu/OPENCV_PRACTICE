@@ -30,4 +30,4 @@ cv.imshow('Contours Drawn', blank)
 
 cv.waitKey(0)
 
-#recommend canny->threshold-> contours
+#recommend canny->threshold-> contours ++
