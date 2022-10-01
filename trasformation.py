@@ -36,7 +36,9 @@ cv.imshow('Resized', resized)
 #Flipping
 flip = cv.flip(img, 0)
 cv.imshow('Flip', flip)
+#0=>위아래, 1=>좌우, -1=>
 
+#Cropping
 
 
 cv.waitKey(0)
