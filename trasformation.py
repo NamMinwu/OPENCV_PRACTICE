@@ -39,7 +39,8 @@ cv.imshow('Flip', flip)
 #0=>위아래, 1=>좌우, -1=>
 
 #Cropping
-
+cropped = img[200:400, 300:400]
+cv.imshow('Cropped', cropped)
 
 cv.waitKey(0)
 
